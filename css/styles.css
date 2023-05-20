@@ -402,6 +402,9 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.filter-btn-item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -521,9 +524,9 @@ img {
 .social-list-link:focus {
   background-color: var(--pressed-btn);
 }
-.social-media-item {
+/* .social-media-item {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .social-list-link {
   display: flex;
@@ -534,6 +537,7 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
   fill: var(--background-light);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer-social */
