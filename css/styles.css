@@ -672,8 +672,7 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
-  padding-left: 0;
-  padding-right: 0;
+
   background-color: rgba(231, 233, 252, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -698,6 +697,7 @@ img {
 /* =========================================DELETE========================== */
 /* delete-me-after */
 .delete-me-after {
+  padding-top: 1px;
   margin-right: auto;
   margin-left: auto;
 }
