@@ -492,8 +492,8 @@ img {
   position: relative;
   overflow: hidden;
 }
-.portfolio-list-img-wrapper:hover .overlay,
-.portfolio-list-img-wrapper:focus .overlay {
+.portfolio-list-img-wrapper :hover .overlay,
+.portfolio-list-img-wrapper :focus .overlay {
   transform: translateY(0%);
 }
 /* Social media */
