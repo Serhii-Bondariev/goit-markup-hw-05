@@ -435,6 +435,10 @@ img {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio-links:hover .overlay,
+.portfolio-links:focus .overlay {
+  transform: translateY(0);
+}
 
 .portfolio-links:hover,
 .portfolio-links:focus {
@@ -483,7 +487,7 @@ img {
   mix-blend-mode: normal;
   color: #f4f4fd;
   overflow: auto;
-  transform: translate(0px, 100%);
+  transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -508,9 +512,6 @@ img {
 .social-list-link:focus {
   background-color: var(--pressed-btn);
 }
-/* .social-media-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .social-list-link {
   display: flex;
